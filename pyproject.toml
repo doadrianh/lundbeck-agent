@@ -6,7 +6,7 @@ authors = [
     {name = "doadrianh",email = "doadrianh@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12,<3.14"
+requires-python = ">=3.11,<3.14"
 dependencies = [
     "langchain-community (>=0.3.24,<0.4.0)",
     "tiktoken (>=0.9.0,<0.10.0)",
@@ -24,9 +24,6 @@ dependencies = [
     "langgraph-cli[inmem] (>=0.2.12,<0.3.0)",
     "langchain-tavily (>=0.2.1,<0.3.0)",
 ]
-
-[tool.poetry]
-package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

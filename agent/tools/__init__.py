@@ -1,3 +1,4 @@
+"""Tools module for the agent."""
 from .search_drug import search_drug
 from .search_lundbeck import search_lundbeck
 from .search_web import search_web

@@ -1,3 +1,4 @@
+"""Nodes module for the agent."""
 from .call_model import call_model_node
 from .tools import tools_node
 from .store_memory import store_memory_node
