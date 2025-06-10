@@ -1,0 +1,33 @@
+[project]
+name = "adaptive-rag"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "doadrianh",email = "doadrianh@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "langchain-community (>=0.3.24,<0.4.0)",
+    "tiktoken (>=0.9.0,<0.10.0)",
+    "langchain-openai (>=0.3.19,<0.4.0)",
+    "langchainhub (>=0.1.21,<0.2.0)",
+    "chromadb (>=1.0.12,<2.0.0)",
+    "langchain (>=0.3.25,<0.4.0)",
+    "langgraph (>=0.4.8,<0.5.0)",
+    "tavily-python (>=0.7.4,<0.8.0)",
+    "bs4 (>=0.0.2,<0.0.3)",
+    "langchain-pinecone (>=0.2.8,<0.3.0)",
+    "langsmith (>=0.3.45,<0.4.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "pinecone (>=7.0.2,<8.0.0)",
+    "langgraph-cli[inmem] (>=0.2.12,<0.3.0)",
+    "langchain-tavily (>=0.2.1,<0.3.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
